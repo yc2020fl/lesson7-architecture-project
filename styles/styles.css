@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: 'Arial-Bold', Arial;
+}
+
+header {
+  background-color: rgb(68, 68, 68);
+  color: white;
+  padding: 2em;
+  border: 2em transparent;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+header img {
+  text-align: center;
+  width: 19%;
+}
+
+header .second-line {
+  background-color: rgb(236, 183, 34);
+  font-size: 2em;
+}
+
+nav{
+    font-size: 2em;
+    background-color: rgb(236, 183, 34);
+    border-style: solid;
+    border-color: rgb(27,68,127);
+    border-width: 20px;
+    text-align: right;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+section {
+  font-family: Arial
+}
+aside {
+  font-family: Arial;
+}
+
+footer {
+  font-family: Arial;
+}
+
+
+.top {
+  border: 0.5em solid rgb(27,68,127);
+  height: 20em;
+}
+
+.top {
+  display: grid;
+  grid-gap: 5em 5em;
+}
+
+.top-box-1 {
+  grid-area: 1 / 1 / 4 / 3;
+  text-align: justify;
+
+}
+
+.top-box-2 {
+  grid-area: 1 / 4 / 1/ 4;
+}
+
+
+.top {
+  grid-template-columns: repeat (2, 50%);
+  grid-template-rows: auto;
+  justify-content: space-around;
+}
+
+.about {
+    display: inline-block;
+    border: 0.5em solid rgb(68, 68, 68);
+    text-align: left;
+    height: 30em;
+    width: 80em;
+}
+
+.about p::first-letter {
+    font-size: 160%;
+    color: rgb(236, 183, 34);
+  }
+
+
+.box{
+  height: 10em;
+  width: 72em;
+  border: 4px solid rgb(236, 183, 34);
+  align-items: flex-start;
+  text-align: center;
+}
+
+.highlights-container {
+  height: 44em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(68, 68, 68);
+}
+
+.image1 {
+  position: relative;
+}
+
+.image2 {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 20%;
+}
+
+.policy {
+    position: relative;
+    bottom: 16em;
+    left: 1em;
+}
+
+.policy2 {
+    position: absolute;
+    bottom: 12em;
+    left: 1em;
+    right: 20em;
+}
+
+.legal {
+  position: relative;
+  bottom: 8em;
+  left: 1em;
+}
+
+footer a:link {
+  text-decoration: none;
+  color: rgb(68, 68, 68);
+  bottom: 5em;
+  left: 1em;
+}
+
+
+footer p {
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+
+
+footer img {
+  width: 100%;
+}
+
+
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
