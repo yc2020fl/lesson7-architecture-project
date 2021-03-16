@@ -74,8 +74,8 @@ footer {
 
 
 .top {
-  grid-template-columns: repeat (2, 50%);
-  grid-template-rows: auto;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
   justify-content: space-around;
 }
 
@@ -217,7 +217,7 @@ footer img {
 
 .private-1 {
   text-align: center;
-  border: 1em solid rgb(68, 68, 68);
+  border: 1em solid rgba(68, 68, 68, 90%);
   font-weight: bold;
   font-size: 1em;
   background-color: rgb(68, 68, 68);
@@ -258,18 +258,18 @@ footer img {
 
 .instructor-1 {
   grid-area: 1 / 2 / 1 / 2;
-  color: rgba(265, 265, 265, 80%);
+  color: rgba(255, 255, 255, 80%);
 }
 
 
 .instructor-2 {
   grid-area: 2 / 3 / 2 / 2;
-  color: rgba(265, 265, 265,80%);
+  color: rgba(255, 255, 255,80%);
 }
 
 .instructor-3 {
   grid-area: 3 / 2 / 3 / 2;
-  color: rgba(265, 265, 265,80%);
+  color: rgba(255, 255, 255,80%);
 }
 
 
