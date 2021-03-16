@@ -83,8 +83,8 @@ footer {
     display: inline-block;
     border: 0.5em solid rgb(68, 68, 68);
     text-align: left;
-    height: 30em;
-    width: 80em;
+    height: 40em;
+    padding: 4em;
 }
 
 .about p::first-letter {
@@ -110,7 +110,9 @@ footer {
   align-items: center;
 }
 
-
+aside a {
+  text-decoration: none;
+}
 
 
 .container {
@@ -166,6 +168,110 @@ footer p {
 footer img {
   width: 100%;
 }
+
+
+.schedule {
+  text-align: center;
+  border: 1em solid rgb(68, 68, 68);
+  background-color: rgba(236, 183, 34, 70%);
+}
+
+.list-head {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.list-courses {
+  border: 1em solid rgb(236, 183, 34);
+}
+
+.courses-container div {
+  border: 0.1em solid rgb(68, 68, 68);
+  padding: 2em;
+  font-weight: bold;
+}
+
+.courses-container {
+  display: grid;
+  grid-gap: 5em 1em;
+  padding: 2em;
+}
+
+.class-1 {
+    grid-area: 1 / 2 / 1 / 2;
+}
+
+.class-2 {
+      grid-area: 2 / 2 / 2 / 2;
+}
+
+.class-3 {
+        grid-area: 3 / 2 / 3 / 2;
+}
+
+.private-head {
+  font-size: 2em;
+}
+
+.private-1 {
+  text-align: center;
+  border: 1em solid rgb(68, 68, 68);
+  font-weight: bold;
+  font-size: 1em;
+  background-color: rgb(68, 68, 68);
+  color: rgba(255, 255, 255, 80%);
+  letter-spacing: 0.1em;
+  line-height: 2em;
+}
+
+
+.instructor div {
+  border: 5em;
+  text-align: center;
+  padding: 1em;
+  background-color: rgb(68, 68, 68)
+
+}
+
+
+.instructor {
+  display: grid;
+  grid-gap: 2em 2em;
+  padding: 2em;
+  margin: 1em;
+}
+
+.instructor-bio {
+  border: 1em;
+  margin: 1em;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.ins-head {
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.instructor-1 {
+  grid-area: 1 / 2 / 1 / 2;
+  color: rgba(265, 265, 265, 80%);
+}
+
+
+.instructor-2 {
+  grid-area: 2 / 3 / 2 / 2;
+  color: rgba(265, 265, 265,80%);
+}
+
+.instructor-3 {
+  grid-area: 3 / 2 / 3 / 2;
+  color: rgba(265, 265, 265,80%);
+}
+
 
 
 .container::after {
