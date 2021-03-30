@@ -28,16 +28,18 @@ header .second-line {
 }
 
 nav{
-    font-size: 2em;
-    background-color: rgb(236, 183, 34);
-    border-style: solid;
-    border-color: rgb(27,68,127);
-    border-width: 20px;
-    text-align: right;
+  font-size: 1.6em;
+  background-color: rgb(236, 183, 34);
+  border-style: solid;
+  border-color: rgb(27,68,127);
+  border-width: 0.3em;
+  text-align: right;
 }
 
 nav a {
   text-decoration: none;
+  padding: 1em;
+  margin: 1em;
 }
 
 section {
@@ -79,17 +81,24 @@ footer {
   justify-content: space-around;
 }
 
+
+.video-link {
+  border: none;
+}
+
 .about {
     display: inline-block;
     border: 0.5em solid rgb(68, 68, 68);
     text-align: left;
-    height: 40em;
+    height: 50em;
     padding: 4em;
 }
 
 .about p::first-letter {
-    font-size: 160%;
+    font-size: 250%;
+    font-style: oblique;
     color: rgb(236, 183, 34);
+    padding: 0.3em;
   }
 
 
@@ -134,15 +143,15 @@ aside a {
 
 .policy {
     position: relative;
-    bottom: 16em;
-    left: 1em;
+    bottom: 11em;
+    left: 2em;
 }
 
 .policy2 {
-    position: absolute;
-    bottom: 12em;
+    position: relative;
+    bottom: 12.5em;
     left: 1em;
-    right: 20em;
+    padding: 1em;
 }
 
 .legal {
